@@ -1,3 +1,5 @@
+use tour_of_rust::cp1::variables;
+
 fn main() {
-    println!("Hello, world!");
+    variables::run();
 }
