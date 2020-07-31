@@ -10,9 +10,9 @@ mod multiple_return_values;
 mod returning_nothing;
 mod variables;
 
-pub struct Capter1;
+pub struct Chapter1;
 
-impl Runner for Capter1 {
+impl Runner for Chapter1 {
     fn run(&self) {
         variables::run();
         changing_variables::run();
