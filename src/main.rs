@@ -1,12 +1,6 @@
-use tour_of_rust::cp1::{
-    arrays, basic_type_conversion, basic_types, changing_variables, constants, variables,
-};
+use tour_of_rust::{cp1::Capter1, runner::Runner};
 
 fn main() {
-    variables::run();
-    changing_variables::run();
-    basic_types::run();
-    basic_type_conversion::run();
-    constants::run();
-    arrays::run();
+    let cp1 = Capter1;
+    cp1.run();
 }
