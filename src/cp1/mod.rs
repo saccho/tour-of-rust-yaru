@@ -7,6 +7,7 @@ mod changing_variables;
 mod constants;
 mod functions;
 mod multiple_return_values;
+mod returning_nothing;
 mod variables;
 
 pub struct Capter1;
@@ -21,5 +22,6 @@ impl Runner for Capter1 {
         arrays::run();
         functions::run();
         multiple_return_values::run();
+        returning_nothing::run();
     }
 }
