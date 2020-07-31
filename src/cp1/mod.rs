@@ -5,6 +5,7 @@ mod basic_type_conversion;
 mod basic_types;
 mod changing_variables;
 mod constants;
+mod functions;
 mod variables;
 
 pub struct Capter1;
@@ -17,5 +18,6 @@ impl Runner for Capter1 {
         basic_type_conversion::run();
         constants::run();
         arrays::run();
+        functions::run();
     }
 }
